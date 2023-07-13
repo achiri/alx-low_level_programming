@@ -3,7 +3,7 @@
 
 /*Hello World*/
 int main(void)
-/*hello world*/
+/*main function*/
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	/*return void*/
