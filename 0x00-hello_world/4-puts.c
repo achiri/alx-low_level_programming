@@ -1,7 +1,9 @@
 /*This program prints a string without the printf function*/
 #include<stdio.h>
-
-/*Hello World*/
+/**
+ * main - This is the starting point
+ * Return: must always return void when successful
+ */
 int main(void)
 /*main function*/
 {
