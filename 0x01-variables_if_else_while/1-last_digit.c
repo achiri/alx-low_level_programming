@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
 * main - get the last digit from a random variable and compare
