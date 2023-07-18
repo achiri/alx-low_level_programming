@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
 *jack_bauer - prints each minute of the day
 *
 *Return:returns 0
 */
+
 void jack_bauer(void)
 {
 	int min, hour;
