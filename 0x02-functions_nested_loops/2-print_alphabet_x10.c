@@ -5,16 +5,17 @@
  *
  * Return: Always 0.
  */
+
 void print_alphabet_x10(void)
 {
-	char ch;
-	int count;
-	for (count = 1; count <= 10; count++)
-	
+	char alpha;
+	int counter;
+
+	for (counter = 1; counter <= 10; counter++)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
-		_putchar(ch);
+			_putchar(alpha);
 		}
 		_putchar('\n');
 	}
