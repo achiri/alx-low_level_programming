@@ -4,28 +4,26 @@
 * more_numbers - prints numbers on 10 lines
 * Return: Return void and exit
 * @i: character to use
-* @counter: another integer
+* @j: another integer
 */
 
 void more_numbers(void)
 
 {
-	char i;
-	int counter;
+	int i;
+	int j;
 
-	for (counter = 1; counter <= 10; counter++)
+	for (i = 0; i < 10; i++)
 	
 	{
-		for (i = 0; i <= 14; i++)
+		for (j = 0; j < 15; j++)
 		
 		{
-			if (i / 10 > 0)
-
-				_putchar((i / 10) + '0');
-
-			_putchar((i % 10) + '0');
+			if (j >= 10)
+				_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
+		
 		}
-
 		_putchar('\n');
 	}
 }
