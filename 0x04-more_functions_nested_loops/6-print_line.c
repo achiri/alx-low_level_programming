@@ -2,15 +2,15 @@
 
 /**
 * print_line - prints a line in the terminal
-* Return: returns void and exits
+*@n: integer
 */
 
 void print_line(int n)
 {
-	while (n-- > 0)
-	{
-		_putchar('_');
-	}
-	_putchar('\n');
+	int times = n;
 
+	for (times = n; times > 0; times--)
+		_putchar('_');
+
+	_putchar('\n');
 }
