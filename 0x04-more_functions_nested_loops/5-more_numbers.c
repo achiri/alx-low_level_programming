@@ -3,22 +3,24 @@
 /**
 * more_numbers - prints numbers on 10 lines
 * Return: Return void and exit
+* @i: character to use
+* @counter: another integer
 */
 
 void more_numbers(void)
-
 {
+	char i;
+	int counter;
 
-	int i, j;
-
-	for (i = 1; i <= 10; i++)
-	
+	for (counter = 1; counter <= 10; counter++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (j >= 10)
-			_putchar('1');
-			_putchar(j % 10 + '0');
+			if (i / 10 > 0)
+
+				_putchar((i / 10) + '0');
+
+			_putchar((i % 10) + '0');
 		}
 		_putchar('\n');
 	}
